@@ -28,20 +28,17 @@ span.diff-tag-conflict {
 span.diff-html-added {
   font-size: 100%;
   background-color: #ccffcc; /* light green */
-  cursor: pointer;
 }
 
 span.diff-html-removed {
   font-size: 100%;
   text-decoration: line-through;
   background-color: #fdc6c6; /* light red */
-    cursor: pointer;
 }
 
 span.diff-html-changed {
   background: url(../images/diffunderline.gif) bottom repeat-x;
   *background-color: #c6c6fd; /* light blue */
-  cursor: pointer;
 }
 
 span.diff-html-conflict {
@@ -51,7 +48,6 @@ span.diff-html-conflict {
 
 span.diff-html-selected {
   background-color: #FF8800; /* light orange */
-  cursor: pointer;
 }
 
 span.diff-html-selected img{
