@@ -1,0 +1,1100 @@
+table {
+  width: 100%;
+}
+
+#bill_text {
+    font-family: "Times New Roman", "Times", serif;
+    font-size: 14px;
+    margin: 0 2em
+}
+
+#bill_text td {
+    border-bottom: none;
+    padding: 0
+}
+
+#bill_text .allcap {
+    text-transform: uppercase
+}
+
+#bill_text .allcapDiv {
+    text-transform: uppercase;
+    font-size: 16pt
+}
+
+#bill_text .largecap {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 18pt
+}
+
+#bill_text .mediumcap {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 16pt
+}
+
+#bill_text .smallcap {
+    font-variant: small-caps;
+    font-weight: bold
+}
+
+#bill_text .iscap {
+    font-variant: small-caps;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .simplecap {
+    font-variant: small-caps
+}
+
+#bill_text .simplecapEx {
+    font-size: 12pt;
+    text-transform: uppercase
+}
+
+#bill_text .initialcap {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .hang {
+    text-indent: -2em
+}
+
+#bill_text .indent {
+    text-indent: 2em
+}
+
+#bill_text .indentSubsection {
+    text-indent: 2em;
+    margin-left: 0em;
+    text-align: justify
+}
+
+#bill_text .indentParagraph {
+    text-indent: 2em;
+    margin-left: 2em;
+    text-align: justify
+}
+
+#bill_text .indentSubpar {
+    text-indent: 2em;
+    margin-left: 4em;
+    text-align: justify
+}
+
+#bill_text .indentClause {
+    text-indent: 2em;
+    margin-left: 6em;
+    text-align: justify
+}
+
+#bill_text .indentSubclause {
+    text-indent: 2em;
+    margin-left: 8em;
+    text-align: justify
+}
+
+#bill_text .indentItem {
+    text-indent: 2em;
+    margin-left: 10em;
+    text-align: justify
+}
+
+#bill_text .indentSubItem {
+    text-indent: 2em;
+    margin-left: 12em;
+    text-align: justify
+}
+
+#bill_text .indentSubsection {
+    text-indent: 2em;
+    text-align: justify
+}
+
+#bill_text .nonIndentSubsection {
+    text-indent: 0em;
+    margin-left: 0em;
+    text-align: justify
+}
+
+#bill_text .noindentParagraph {
+    text-indent: 0em;
+    margin-left: 2em;
+    text-align: justify
+}
+
+#bill_text .noindentSubpar {
+    text-indent: 0em;
+    margin-left: 4em;
+    text-align: justify
+}
+
+#bill_text .noindentClause {
+    text-indent: 0em;
+    margin-left: 6em;
+    text-align: justify
+}
+
+#bill_text .noindentSubclause {
+    text-indent: 0em;
+    margin-left: 8em;
+    text-align: justify
+}
+
+#bill_text .noindentItem {
+    text-indent: 0em;
+    margin-left: 10em;
+    text-align: justify
+}
+
+#bill_text .noindentSubItem {
+    text-indent: 0em;
+    margin-left: 12em;
+    text-align: justify
+}
+
+#bill_text .indentTax {
+    text-indent: 2em;
+    font-weight: normal;
+    font-size: 13pt
+}
+
+#bill_text .legisnum {
+    font-size: 37pt;
+    font-weight: bold
+}
+
+#bill_text .legisnumAvg {
+    font-size: 36pt;
+    font-weight: bold;
+    letter-spacing: -2
+}
+
+#bill_text .legisnumlrg {
+    font-size: 37pt;
+    font-weight: bold;
+    letter-spacing: -3
+}
+
+#bill_text .legisnumSml {
+    font-size: 17pt;
+    font-weight: bold
+}
+
+#bill_text .legistype {
+    font-size: 30pt
+}
+
+#bill_text .chamber {
+    font-size: 15pt
+}
+
+#bill_text .chamberEngrHouse {
+    font-size: 20pt;
+    font-weight: bold;
+    font: italic
+}
+
+#bill_text .congressEnrolled {
+    font-size: 30pt;
+    font-weight: bold
+}
+
+#bill_text .legisEnrolled {
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: Monotype Corsiva;
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    text-transform: capitalize
+}
+
+#bill_text .legisEngrossed {
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: Monotype Corsiva;
+    word-spacing: 2;
+    letter-spacing: 1;
+    text-transform: capitalize
+}
+
+#bill_text .sessionEnrolled {
+    font-size: 12pt;
+    font-weight: bold
+}
+
+#bill_text .dateEnrolled {
+    font-size: 10pt;
+    font: italic;
+    font-weight: bold
+}
+
+#bill_text .biglevel {
+    font-size: 26pt;
+    font-weight: bold
+}
+
+#bill_text .leftjustify {
+    text-indent: 0em;
+    text-align: justify
+}
+
+#bill_text .leftjustifyct {
+    text-indent: 0em
+}
+
+#bill_text .thinspace {
+    word-spacing: -5
+}
+
+#bill_text .nSpace {
+    word-spacing: -1
+}
+
+#bill_text .ommitedTextSpace {
+    word-spacing: 60
+}
+
+#bill_text .initialcapArchaic {
+    font-variant: normal;
+    text-transform: capitalize
+}
+
+#bill_text .sectionlevelOLC {
+    font-size: 12pt;
+    font-weight: bold
+}
+
+#bill_text .boldfacesectionlevelOLC,#bill_text .sectionlevelOLCBold {
+    font-size: 14pt;
+    font-weight: bold
+}
+
+#bill_text .divisionlevelOLC,#bill_text .titlelevelOLC {
+    font-size: 18pt;
+    font-weight: bold
+}
+
+#bill_text .subtitlelevelOLC {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 18pt;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .subtitlelevelOLCBold {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .chapterlevelOLC {
+    font-size: 16pt;
+    font-weight: bold
+}
+
+#bill_text .chapterlevelOLCBold {
+    font-size: 20pt;
+    font-weight: bold
+}
+
+#bill_text .subchapterlevelOLC {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 16pt;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .subchapterlevelOLCBold {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .chapterlevelOLCnuclear {
+    font-size: 16pt
+}
+
+#bill_text .sectionlevelOLCnuclear {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: small-caps;
+    text-transform: capitalize
+}
+
+#bill_text .partlevelOLC {
+    font-size: 14pt;
+    font-weight: bold
+}
+
+#bill_text .partlevelOLCBold {
+    font-size: 20pt;
+    font-weight: bold
+}
+
+#bill_text .subpartlevelOLC {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .subpartlevelOLCBold {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .tocsectionOLC {
+    text-indent: -2em;
+    margin-left: 2em
+}
+
+#bill_text .tocdivisionOLC {
+    font-size: 11pt
+}
+
+#bill_text .tocsubdivisionOLC {
+    font-size: 10pt;
+    font-variant: small-caps;
+    text-transform: capitalize
+}
+
+#bill_text .tocsubdivisionwithEnumOLC {
+    font-size: 10pt
+}
+
+#bill_text .toctitleOLC {
+    font-size: 11pt
+}
+
+#bill_text .tocsubtitleOLC {
+    font-variant: normal;
+    text-transform: capitalize;
+    font-size: 11pt
+}
+
+#bill_text .tocsubtitlewithenumOLC {
+    font-variant: normal;
+    font-size: 11pt
+}
+
+#bill_text .tocchapterOLC {
+    font-size: 11pt
+}
+
+#bill_text .tocsubchapterOLC {
+    font-size: 9pt
+}
+
+#bill_text .tocpartOLC {
+    font-size: 11pt
+}
+
+#bill_text .tocsubpartOLC {
+    font-variant: small-caps;
+    font-size: 9pt
+}
+
+#bill_text .mediumcapTrad {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 14pt
+}
+
+#bill_text .smallcapTrad {
+    font-variant: small-caps;
+    font-size: 12pt
+}
+
+#bill_text .initialcapTrad {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-size: 14pt;
+    font-variant: small-caps;
+    text-transform: capitalize
+}
+
+#bill_text .largecapTrad {
+    font-variant: small-caps;
+    font-size: 16pt
+}
+
+#bill_text .sectionlevelTrad {
+    font-size: 12pt
+}
+
+#bill_text .sectionTitleTrad {
+    font-variant: small-caps;
+    text-transform: capitalize
+}
+
+#bill_text .sectionlevelTradBold {
+    font-size: 14pt
+}
+
+#bill_text .titlelevelTrad {
+    font-size: 16pt;
+    font-variant: small-caps;
+    text-transform: capitalize
+}
+
+#bill_text .titlelevelTradIn {
+    font-size: 16pt;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+#bill_text .titlelevelTradEx {
+    font-size: 16pt;
+    text-transform: uppercase
+}
+
+#bill_text .titlelevelTradBold {
+    font-size: 18pt
+}
+
+#bill_text .subtitlelevelTrad,#bill_text .subtitlelevelTradBold {
+    font-size: 16pt;
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    text-transform: capitalize
+}
+
+#bill_text .partlevelTrad {
+    font-size: 16pt;
+    font-variant: small-caps;
+    text-transform: capitalize
+}
+
+#bill_text .partlevelTradBold {
+    font-size: 18pt
+}
+
+#bill_text .subpartlevelTrad {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 16pt;
+    text-transform: capitalize
+}
+
+#bill_text .subpartlevelTradBold {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 18pt;
+    text-transform: capitalize
+}
+
+#bill_text .chapterlevelTrad {
+    word-spacing: 2;
+    letter-spacing: 1;
+    text-transform: uppercase;
+    font-size: 16pt;
+    font-weight: bold
+}
+
+#bill_text .chapterlevelTradBold {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    text-transform: capitalize;
+    font-size: 16pt;
+    font-weight: bold
+}
+
+#bill_text .subchapterlevelTrad {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-size: 16pt
+}
+
+#bill_text .subchapterlevelTradEx {
+    word-spacing: 2;
+    letter-spacing: 1;
+    text-transform: uppercase;
+    font-size: 16pt
+}
+
+#bill_text .subchapterlevelTradInline {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: small-caps;
+    font-size: 16pt
+}
+
+#bill_text .subchapterlevelTradBold {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-size: 18pt
+}
+
+#bill_text .tocsectionTrad {
+    font-size: 80%;
+    text-indent: -2em;
+    margin-left: 2em
+}
+
+#bill_text .toctitleTrad {
+    font-size: 11pt;
+    font-variant: normal
+}
+
+#bill_text .tocsubtitleTrad {
+    font-size: 11pt
+}
+
+#bill_text .tocchapterTrad {
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-size: 11pt
+}
+
+#bill_text .tocsubchapterTrad {
+    font-variant: normal;
+    font-size: 11pt
+}
+
+#bill_text .tocpartTrad {
+    font-variant: small-caps;
+    font-size: 10pt
+}
+
+#bill_text .tocsubpartTrad {
+    font-variant: normal;
+    font-size: 10pt
+}
+
+#bill_text .sectionlevelIRC {
+    font-size: 12pt;
+    font-weight: bold
+}
+
+#bill_text .sectionlevelIRCEx {
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+#bill_text .sectionlevelIRCBold {
+    font-size: 14pt;
+    font-weight: bold
+}
+
+#bill_text .titlelevelIRC {
+    font-size: 18pt;
+    font-weight: bold
+}
+
+#bill_text .titlelevelIRCEx {
+    font-size: 18pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+#bill_text .subtitlelevelIRC {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 18pt;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .subtitlelevelIRCBold {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 22pt;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .chapterlevelIRC {
+    font-size: 16pt;
+    font-weight: bold
+}
+
+#bill_text .chapterlevelIRCEx {
+    font-size: 16pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+#bill_text .chapterlevelIRCBold {
+    font-size: 20pt;
+    font-weight: bold
+}
+
+#bill_text .subchapterlevelIRC {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 16pt;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .subchapterlevelIRCBold {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .partlevelIRC {
+    font-size: 14pt;
+    font-weight: bold
+}
+
+#bill_text .partlevelIRCEx {
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+#bill_text .partlevelIRCBold {
+    font-size: 20pt;
+    font-weight: bold
+}
+
+#bill_text .subpartlevelIRC {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .subpartlevelIRCBold {
+    word-spacing: 2;
+    letter-spacing: 1;
+    font-variant: normal;
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#bill_text .tocsectionIRC {
+    font-size: 11pt
+}
+
+#bill_text .tocsectionIRCTax {
+    font-size: 11pt;
+    font-variant: normal;
+    text-transform: capitalize
+}
+
+#bill_text .tocsectionIRCBold {
+    font-size: 12pt
+}
+
+#bill_text .toclowercaseIRC {
+    font-size: 11pt
+}
+
+#bill_text .toclowercaseIRCBold {
+    font-size: 12pt
+}
+
+#bill_text .tocchapterIRC {
+    font-size: 11pt
+}
+
+#bill_text .tocBigcapsLowcapsIRC {
+    font-size: 11pt;
+    font-variant: small-caps;
+    text-transform: capitalize
+}
+
+#bill_text .tocBigcapsLowcapsIRCBold {
+    font-size: 12pt;
+    font-variant: small-caps;
+    text-transform: capitalize
+}
+
+#bill_text .tocpartIRC {
+    font-variant: normal;
+    text-transform: capitalize;
+    font-size: 11pt
+}
+
+#bill_text .tocpartIRCTax {
+    font-variant: normal;
+    font-size: 11pt
+}
+
+#bill_text .tocpartIRCBold {
+    font-variant: normal;
+    text-transform: capitalize;
+    font-size: 12pt
+}
+
+#bill_text .tocsubpartIRC {
+    font-variant: normal;
+    text-transform: capitalize;
+    font-size: 11pt
+}
+
+#bill_text .tocsubpartIRCBold {
+    font-variant: normal;
+    text-transform: capitalize;
+    font-size: 12pt
+}
+
+#bill_text .initialcapIRC {
+    word-spacing: 2;
+    font-variant: small-caps;
+    text-transform: capitalize
+}
+
+#bill_text .sectionlevelUSC {
+    font-size: 14pt;
+    font-weight: bold
+}
+
+#bill_text .dropcapUSC {
+    font-size: 110%;
+    text-transform: capitalize
+}
+
+#bill_text .smallcapUSC {
+    text-transform: lowercase;
+    font-variant: small-caps
+}
+
+#bill_text .initialcapUSC {
+    font-variant: small-caps;
+    font-size: 14pt
+}
+
+#bill_text .titlelevelUSC {
+    font-size: 18pt;
+    font-weight: bold
+}
+
+#bill_text .subtitlelevelUSC {
+    font-size: 12pt;
+    font-weight: bold;
+    font-variant: normal;
+    text-transform: capitalize
+}
+
+#bill_text .chapterlevelUSC {
+    font-size: 14pt;
+    font-weight: bold
+}
+
+#bill_text .subchapterlevelUSC {
+    font-size: 14pt
+}
+
+#bill_text .subchapterlevelUSCEx {
+    font-size: 14pt;
+    text-transform: uppercase
+}
+
+#bill_text .partlevelUSC {
+    font-size: 14pt;
+    font-weight: bold
+}
+
+#bill_text .tocsectionUSC {
+    font-size: 80%;
+    text-indent: -2em;
+    margin-left: 2em
+}
+
+#bill_text .dot-leader {
+    vertical-align: bottom;
+    background-image: url(dot_line1.gif);
+    background-repeat: repeat-x;
+    background-position: bottom
+}
+
+#bill_text .td {
+    background-color: #FFF;
+    font-size: 90%
+}
+
+#bill_text .calendarOLC,#bill_text .calendarOLCLongTitle {
+    font-size: 24pt;
+    font-weight: bold;
+    letter-spacing: -1
+}
+
+#bill_text .associatedDocOLC {
+    font-size: 14pt;
+    font-weight: bold
+}
+
+#bill_text .hangtable {
+    text-indent: -3em;
+    font-size: 10pt
+}
+
+#bill_text .EndsmtHead {
+    font-size: 12pt;
+    font-weight: bold
+}
+
+#bill_text .EndsmtSimpleCap {
+    font-size: 10pt;
+    font-variant: small-caps
+}
+
+#bill_text .EndsmtMediumCap {
+    font-size: 20pt;
+    font-weight: bold
+}
+
+#bill_text .EndsmtLargeCap {
+    font-size: 28pt;
+    font-weight: bold
+}
+
+#bill_text .PageBreakAfter {
+    page-break-before: always
+}
+
+#bill_text .smtlegisnum {
+    font-size: 28pt;
+    font-weight: bold
+}
+
+#bill_text .smtlegisnumAvg {
+    font-size: 28pt;
+    font-weight: bold;
+    letter-spacing: -2
+}
+
+#bill_text .smtlegisnumlrg {
+    font-size: 28pt;
+    font-weight: bold;
+    letter-spacing: -3
+}
+
+#bill_text .bold {
+    font-weight: bold
+}
+
+#bill_text .brakets {
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: Arial
+}
+
+#bill_text sub,#bill_text sup {
+    font-size: 10pt
+}
+
+#bill_text .Attest {
+    font-size: 13pt
+}
+
+#bill_text .headerAppropMajor {
+    font-size: 16pt;
+    text-transform: uppercase
+}
+
+#bill_text .headerAppropMajorItalic {
+    font-size: 16pt;
+    text-transform: uppercase;
+    font: italic
+}
+
+#bill_text .headerAppropIntermediate {
+    font-size: 16pt;
+    font-variant: small-caps;
+    text-transform: capitalize
+}
+
+#bill_text .headerAppropIntermediateItalic {
+    font-size: 16pt;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font: italic
+}
+
+#bill_text .headerAppropSmall {
+    font-variant: small-caps;
+    text-transform: lowercase
+}
+
+#bill_text .headerAppropSmallItalic {
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font: italic
+}
+
+#bill_text .subheaderApprop {
+    font-variant: small-caps;
+    text-transform: lowercase
+}
+
+#bill_text .subheaderAppropItalic {
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font: italic
+}
+
+#bill_text .allnormal {
+    font-variant: normal;
+    text-transform: lowercase
+}
+
+#bill_text p.breakhere {
+    page-break-before: always
+}
+
+#bill_text .plHead {
+    font-size: 110%;
+    font-weight: bold;
+    text-align: center;
+    width: 100%
+}
+
+#bill_text .smallHdr {
+    text-align: left;
+    font-size: x-small;
+    margin-left: -4pt
+}
+
+#bill_text .headHr {
+    text-align: left;
+    margin-left: -4pt;
+    width: 10%
+}
+
+#bill_text .plForm {
+    width: auto;
+    height: auto;
+    margin-top: 10pt;
+    margin-bottom: 30px;
+    margin-left: 10pt
+}
+
+#bill_text .plEnactClause {
+    text-align: left;
+    font-style: italic;
+    margin-top: 8pt;
+    margin-bottom: 8pt
+}
+
+#bill_text .plEnactIndent {
+    text-align: left;
+    font-style: italic;
+    margin-top: 8pt;
+    margin-bottom: 8pt;
+    text-indent: 24pt
+}
+
+#bill_text .plMarginNote {
+    font-size: x-small;
+    text-align: left;
+    margin-top: 8pt;
+    margin-bottom: 8pt;
+    margin-left: 0pt
+}
+
+#bill_text .plLegisSection {
+    font-size: 14pt;
+    font-weight: bold
+}
+
+#bill_text .textNoDisplayInline,#bill_text .textYesDisplayInline {
+    margin-top: 12pt
+}
+
+#bill_text .textWhereas,#bill_text .textPreamble {
+    text-indent: 10pt;
+    margin-top: 3pt
+}
+
+#bill_text .textAppropriationsBlock {
+    text-align: left;
+    margin-top: 10pt
+}
+
+#bill_text .textAppropriationsPara {
+    text-indent: 10pt;
+    text-align: left;
+    margin-top: 10pt
+}
+
+#bill_text .sectionHeader,#bill_text .sectionEnum {
+    font-size: 14pt
+}
+
+#bill_text .quotedBlock {
+    margin-top: 20pt;
+    color: black;
+    margin-left: 20pt;
+    text-align: left
+}
+
+#bill_text .subSection {
+    margin-left: 0pt;
+    margin-top: 12pt;
+    text-indent: 24pt
+}
+
+#bill_text .colorBlack {
+    color: black
+}
+
+#bill_text .fontWeightBold {
+    font-weight: bold
+}
+
+#bill_text .approvalDate {
+    margin-top: 14pt
+}
+
+#bill_text .legisHistory {
+    text-decoration: underline;
+    font-weight: bold
+}
+
+#bill_text .docItem {
+    margin-left: 16pt
+}
+
+#bill_text .topMargin10 {
+    margin-top: 10pt
+}
+
+#bill_text .strikeThrough {
+    text-decoration: line-through
+}
