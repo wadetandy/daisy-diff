@@ -98,7 +98,7 @@ public class HtmlSaxDiffOutput implements DiffOutput {
                                 .isFirstOfID())) {
                     handler.endElement("", "span", "span");
                     conflictStarted = false;
-                }                		
+                }
 
                 // no else because a removed part can just be closed and a new
                 // part can start
@@ -143,7 +143,7 @@ public class HtmlSaxDiffOutput implements DiffOutput {
                 				+ "-" + prefix + "-" + mod.getID());
                 	}
                 	addAttributes(mod, attrs);
-                	
+
                 	handler.startElement("", "span", "span", attrs);
                 	remStarted = true;
                 } else if (!conflictStarted

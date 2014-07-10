@@ -26,7 +26,7 @@ import org.xml.sax.helpers.AttributesImpl;
 
 public class Main {
   static boolean quietMode = false;
-  
+
     public static void main(String[] args) throws URISyntaxException {
 
         if (args.length < 2)
@@ -34,12 +34,13 @@ public class Main {
 
         boolean htmlDiff = true;
         boolean htmlOut = true;
+        boolean htmlFragment = false;
         String outputFile = "daisydiff.htm";
         String[] css = new String[]{};
-        
+
         InputStream oldStream = null;
         InputStream newStream = null;
-        
+
         try {
             for (int i = 2; i < args.length; i++) {
                 String[] split = args[i].split("=");
@@ -57,6 +58,8 @@ public class Main {
                     }
                 } else if (split[0].equals("--q")){
                   quietMode = true;
+                } else if (split[0].equalsIgnoreCase("--fragment")) {
+                  htmlFragment = true;
                 } else{
                     help();
                 }
@@ -99,8 +102,8 @@ public class Main {
 
             TransformerHandler result = tf.newTransformerHandler();
             result.setResult(new StreamResult(new File(outputFile)));
-            
-            
+
+
             if (args[0].startsWith("http://")) {
                 oldStream = new URI(args[0]).toURL().openStream();
             }
@@ -117,9 +120,9 @@ public class Main {
             XslFilter filter = new XslFilter();
 
             if (htmlDiff) {
+                String transform = htmlFragment ? "org/outerj/daisy/diff/htmlFragment.xsl" : "org/outerj/daisy/diff/htmlheader.xsl";
 
-                ContentHandler postProcess = htmlOut? filter.xsl(result,
-                        "org/outerj/daisy/diff/htmlheader.xsl"):result;
+                ContentHandler postProcess = htmlOut? filter.xsl(result, transform):result;
 
                 Locale locale = Locale.getDefault();
                 String prefix = "diff";
@@ -149,7 +152,7 @@ public class Main {
                         new AttributesImpl());
                 HtmlSaxDiffOutput output = new HtmlSaxDiffOutput(postProcess,
                         prefix);
-                
+
                 HTMLDiffer differ = new HTMLDiffer(output);
                 differ.diff(leftComparator, rightComparator);
                 System.out.print(".");
@@ -168,7 +171,7 @@ public class Main {
                         new AttributesImpl());
                 System.out.print(".");
 
-                
+
                 InputStreamReader oldReader = null;
                 BufferedReader oldBuffer = null;
 
@@ -181,7 +184,7 @@ public class Main {
                     newISReader = new InputStreamReader(newStream);
                     newBuffer = new BufferedReader(newISReader);
                     DaisyDiff.diffTag(oldBuffer, newBuffer, postProcess);
-                    
+
                 } catch (Exception e) {
                     e.printStackTrace();
                 } finally {
@@ -242,9 +245,9 @@ public class Main {
                     attr);
             handler.endElement("", "link", "link");
         }
-        
+
         handler.endElement("", "css", "css");
-        
+
     }
 
     private static void help() {
